@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimalistic</title>
-
+    
     <!-- Styles -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    
+    <!-- SITE-HEADER -->
+    <header class="site-header">
+        <div class="site-header__container container">
+            <a class="site-header__logo logo" href="index.html">
+                <img class="logo__img" src="img/site-header-logo.svg" alt="Site logo" width="61" height="32">
+            </a>
+            
+            <nav class="site-header__sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Home</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Portfolio</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Contact me</a></li>
+                </ul>
+            </nav>
 
-
+            <button class="site-header__toggle--button" type="button">
+                <img class="site-header__toggle--button-img" src="img/site-header-toggle.svg" alt="Site-header toggle" width="24" height="13">
+            </button>
+        </div>
+    </header>
+    
     <script src="js/main.js"></script>
 </body>
 </html>
