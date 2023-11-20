@@ -103,6 +103,21 @@ img {
 }
 
 
+/* BUTTON */
+.button {
+    padding: 17px 36px 17px 32px;
+    border: 1px solid var(--grayish-dark-blue);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--grayish-dark-blue);
+    text-decoration: none;
+}
+
+
 /* AUTO-FILLS STYLES*/
 /* input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -162,7 +177,7 @@ main {
 .site-header {
     position: relative;
     padding-top: 64px;
-    padding-bottom: 54px;
+    padding-bottom: 9px;
 }
 
 .site-header__container {
@@ -219,6 +234,7 @@ main {
 /* HERO */
 .hero {
     position: relative;
+    padding-top: 45px;
 }
 
 .hero__img {
@@ -229,12 +245,12 @@ main {
 
 .hero__inner {
     position: absolute;
-    z-index: 999;
-    transform: translateY(-100%);
-    width: 445px;
+    bottom: 9.5px;
+    width: auto;
+    max-width: 445px;
     padding-top: 56px;
     padding-right: 55px;
-    background-color: var(--very-light-gray);
+    background-color: var(--green);
 }
 
 .hero__title {
@@ -284,6 +300,57 @@ main {
 .hero__link--text:active {
     opacity: 0.6;
 }
+
+
+
+/* ABOUT */
+.about {
+    padding-top: 133px;
+    padding-bottom: 20px;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__img {
+    width: 540px;
+    height: 600px;
+    margin-right: 36px;
+    object-fit: cover;
+}
+
+.about__inner {
+    width: 350px;
+    margin-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 46px;
+    border-top: 1px solid rgb(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+}
+
+.about__title {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-size: 40px;
+    font-family: var(--font-ibarra);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.about__text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
 
 
 @media only screen and (max-width: 550px) {
