@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimalistic</title>
-    
+    <title>Portfolio</title>
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -32,44 +31,49 @@
             </button>
         </div>
     </header>
-    
-    
+
     <!-- MAIN-CONTENT -->
     <main class="main-content">
-        <!-- HERO -->
-        <div class="container">
-            <div class="hero">
-                <img class="hero__img" src="img/hero-img.jpg" alt="Hero-img" width="1100" height="600" srcset="img/hero-img.jpg 1x, img/hero-img@2x.jpg 2x">
-                <div class="hero__inner">
-                    <h1 class="hero__title">
-                        Hey, I’m Alex Spencer and I love building beautiful websites
-                    </h1>
-                    <a class="hero__link" href="#">
-                        <img class="hero__icon" src="img/hero-icon.svg" alt="Down" width="48" height="48">
-                        <span class="hero__link--text">About me</span>
-                    </a>
-                </div>
+        <div class="portfolio">
+            <div class="container">
+                <ul class="portfolio__list">
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="img/manage-preview-desktop.jpg" alt="Manage" width="540" height="500" srcset="img/manage-preview-desktop.jpg 1x, img/manage-preview-desktop@2x.jpg 2x">
+                        <div class="portfoli__content">
+                            <h2 class="portfolio__name">Manage</h2>
+                            <p class="portfolio__description">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
+                            <a class="button" href="#">VIEW PROJECT</a>
+                        </div>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="img/bookmark-preview-desktop.jpg" alt="Bookmark" width="540" height="500" srcset="img/bookmark-preview-desktop.jpg 1x, img/bookmark-preview-desktop@2x.jpg 2x">
+                        <div class="portfoli__content">
+                            <h2 class="portfolio__name">Bookmark</h2>
+                            <p class="portfolio__description">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.</p>
+                            <a class="button" href="#">VIEW PROJECT</a>
+                        </div>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="img/insure-preview-desktop.jpg" alt="Insure" width="540" height="500" srcset="img/insure-preview-desktop.jpg 1x, img/insure-preview-desktop@2x.jpg 2x">
+                        <div class="portfoli__content">
+                            <h2 class="portfolio__name">Insure</h2>
+                            <p class="portfolio__description">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.</p>
+                            <a class="button" href="#">VIEW PROJECT</a>
+                        </div>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="img/fylo-preview-desktop.jpg" alt="Fylo" width="540" height="500" srcset="img/fylo-preview-desktop.jpg 1x, img/fylo-preview-desktop@2x.jpg 2x">
+                        <div class="portfoli__content">
+                            <h2 class="portfolio__name">Fylo</h2>
+                            <p class="portfolio__description">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.</p>
+                            <a class="button" href="#">VIEW PROJECT</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        
-        
-        <!-- ABOUT -->
-        <div class="about">
-            <div class="about__container container">
-                <img class="about__img" src="img/avatar.jpg" alt="Alex avatar" width="540" height="600" srcset="img/avatar.jpg 1x, img/avatar@2x.jpg 2x">
-                <div class="about__inner">
-                    <h2 class="about__title">
-                        About Me
-                    </h2>
-                    <p class="about__text">
-                        I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
-                    </p>
-                    <a class="button" href="#">GO TO PORTFOLIO</a>
-                </div>
-            </div>
-        </div>
-        
-        
+
+
         <!-- CTA -->
         <div class="cta">
             <div class="cta__container container">
@@ -79,7 +83,9 @@
             </div>
         </div>
     </main>
-    
+
+
+
     <!-- SITE-FOOOTER -->
     <footer class="site-footer">
         <div class="site-footer__container container">

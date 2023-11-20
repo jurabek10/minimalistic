@@ -440,6 +440,76 @@ main {
 
 
 
+/* PORTFOLIO PAGE */
+
+/* PORTFOLIO */
+.portfolio {
+    padding-top: 85px;
+    padding-bottom: 42px;
+}
+
+.portfolio__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__item:nth-child(odd) {
+    margin-right: 125px;
+}
+
+.portfolio__item:nth-child(even) {
+    margin-left: 125px;
+    flex-direction: row-reverse;
+}
+
+.portfolio__item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.portfolio__img {
+    width: 540px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.portfoli__content {
+    width: 350px;
+    padding-top: 103px;
+    padding-bottom: 103px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.portfolio__name {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-family: var(--font-ibarra);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.portfolio__description {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+
+
+
 
 @media only screen and (max-width: 550px) {
     .site-header__logo {
