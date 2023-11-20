@@ -105,6 +105,7 @@ img {
 
 /* BUTTON */
 .button {
+    display: inline-block;
     padding: 17px 36px 17px 32px;
     border: 1px solid var(--grayish-dark-blue);
     font-size: 12px;
@@ -115,6 +116,11 @@ img {
     text-transform: uppercase;
     color: var(--grayish-dark-blue);
     text-decoration: none;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: var(--grayish-dark-blue);
 }
 
 
@@ -250,7 +256,7 @@ main {
     max-width: 445px;
     padding-top: 56px;
     padding-right: 55px;
-    background-color: var(--green);
+    background-color: var(--very-light-gray);
 }
 
 .hero__title {
@@ -349,6 +355,41 @@ main {
     font-weight: 400;
     line-height: 30px;
     opacity: 0.8;
+}
+
+
+/* CTA */
+.cta {
+    padding-top: 108px;
+    padding-bottom: 150px;
+}
+
+.cta__container {
+    display: flex;
+    align-items: center;
+}
+
+.cta__title {
+    width: 350px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 32px;
+    font-family: var(--font-ibarra);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.line {
+    width: 534px;
+    height: 1px;
+    margin-right: auto;
+    background-color: rgb(51, 50, 61, 0.15);
+}
+
+.button {
 }
 
 
