@@ -1,5 +1,55 @@
-/* GLOBAL STYLES */
+/* CUSTOM PROPS */
+:root {
+    --font-ibarra: "Ibarra Real Nova", "Arial", sans-serif;
+    --font-public-sans: "Public Sans", "Arial", sans-serif;
+    --green: #5FB4A2;
+    --dark-blue: #203A4C;
+    --grayish-dark-blue: #33323D;
+    --very-light-gray: #FAFAFA;
+    --light-gray: #EAEAEB;
+    --bright-red: #F43030;
+}
 
+/* FONT-FACES */
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/IbarraRealNova-Bold.woff2') format('woff2'),
+    url('../fonts/IbarraRealNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../fonts/PublicSans-Bold.woff2') format('woff2'),
+    url('../fonts/PublicSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/IbarraRealNova-Regular.woff2') format('woff2'),
+    url('../fonts/IbarraRealNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../fonts/PublicSans-Regular.woff2') format('woff2'),
+    url('../fonts/PublicSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* GLOBAL STYLES */
 html {
     height: 100%;
     box-sizing: border-box;
@@ -19,10 +69,10 @@ body {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    line-height: 1.5;
-    font-family: "Arial", sans-serif;
-    background-color: #fff;
-    color: #222;
+    line-height: 30px;
+    font-family: var(--font-public-sans);
+    background-color: var(--very-light-gray);
+    color: var(--grayish-dark-blue);
 }
 
 img {
@@ -72,9 +122,9 @@ select:-webkit-autofill:focus {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: auto;
     margin-left: auto;
 }
