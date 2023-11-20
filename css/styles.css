@@ -389,8 +389,55 @@ main {
     background-color: rgb(51, 50, 61, 0.15);
 }
 
-.button {
+
+/* SITE-FOOTER */
+.site-footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: var(--grayish-dark-blue);
 }
+
+.site-footer__container {
+    display: flex;
+    align-items: center;
+}
+
+.site-footer__logo {
+    margin-right: 48px;
+}
+
+.site-footer__sitenav {
+    margin-right: auto;
+}
+
+.site-footer__sitenav--link {
+    color: #fff;
+}
+
+.site-footer__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.socials__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.socials__link {
+    color: #fff;
+}
+
+.socials__link:hover {
+    color: var(--green);
+}
+
+.socials__link:active {
+    opacity: 0.6;
+}
+
 
 
 
