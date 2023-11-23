@@ -697,6 +697,63 @@ main {
 
 
 
+/* CONTACT PAGE */
+/* CONTACT-HERO */
+.contact-hero {
+    margin-top: 85px;
+}
+
+.contact-hero__container {
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.contact-hero__title {
+    width: 350px;
+    margin-right: 125px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--font-ibarra);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.contact-hero__content {
+    width: 635px;
+}
+
+.contact-hero__text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.5;
+}
+
+.contact-hero__list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.socials__links--contact {
+    color: var(--grayish-dark-blue);
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 550px) {
