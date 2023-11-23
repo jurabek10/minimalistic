@@ -123,6 +123,24 @@ img {
     background-color: var(--grayish-dark-blue);
 }
 
+.button:active {
+    opacity: 0.6;
+}
+
+.form__button {
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+.form__button:hover {
+    background-color: #fff;
+    color: var(--dark-blue);
+}
+
+.form__button:active {
+    opacity: 0.6;
+}
+
 
 /* AUTO-FILLS STYLES*/
 /* input:-webkit-autofill,
@@ -751,6 +769,85 @@ main {
 }
 
 
+
+/* CONTACT PAGE */
+/* CONTACT */
+.contact {
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+
+.contact__container {
+    display: flex;
+}
+
+.contact__title {
+    width: 350px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 125px;
+    font-family: var(--font-ibarra);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.form {
+    flex-direction: column;
+}
+
+.form__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.form__item {
+    margin-bottom: 24px;
+} 
+
+.form__label--wrapper {
+    margin-bottom: 8px;
+}
+
+.form__label {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    color: rgba(51, 50, 61, 0.8);
+}
+
+.form__input {
+    width: 635px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(51, 50, 61, 0.4);
+    border: 0;
+    background-color: rgba(51, 50, 61, 0.1);
+}
+
+.form__textarea {
+    width: 635px;
+    padding-top: 9px;
+    padding-bottom: 57px;
+    padding-left: 16px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(51, 50, 61, 0.4);
+    border: 0;
+    background-color: rgba(51, 50, 61, 0.1);
+}
 
 
 
